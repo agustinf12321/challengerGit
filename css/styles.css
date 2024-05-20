@@ -1,0 +1,119 @@
+*{
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* HEADER */
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 4.0625rem 5.5vw 0;
+    box-shadow: 10px 10px 10px;
+    color: white;
+}
+
+#nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#nav-links li{
+    width: 70px;
+}
+
+#nav-links li a{
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 20px 8px;
+    transition: 0.5s;
+    color: black;
+}
+
+#nav-links li a:hover{
+    color: rgb(54, 105, 248);
+    border-bottom: 4px rgb(54, 105, 248) solid;
+    transition: 0.5s;
+}
+
+
+/* SECTION1 */
+
+#section1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 86px;
+    padding: 0 5.55555vw;
+}
+
+#section1 img{
+    max-width: 50%;
+    margin: 0 0 0 13px;
+    padding: 0;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -48px;
+    text-align: left;
+}
+
+.text h1{
+    font-size: 39px;
+    margin-bottom: 0;
+    color: #070439;
+    font-weight: 700;
+}
+
+.text p{
+    margin: 15px 0 25px;
+    padding: 0 1.38888vw 0 0;
+    color: #070439;
+    font-size: 19px;
+}
+
+.text form{
+    display: flex;
+    flex-direction: row;
+    padding: 0 6vw 0 0;
+    align-items: center;
+    gap: 16px;
+}
+
+.text form .form1-input{
+    width: calc(58% - 42px);
+    height: calc(2.8125rem - 26px);
+    border: 1px solid #070439;
+    border-radius: 0.1953125rem;
+    padding: 14px 21px 12px;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.033333357142em;
+}
+
+.text form .form1-button{
+    width: 200px;
+    height: 2.8125rem;
+    border-radius: 0.1953125rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    background: #3065f8;
+    border: 1px solid #3065f8;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.text form button:hover{
+    background-color: rgb(107, 154, 255);
+    border-style: none;
+}
+
